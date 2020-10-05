@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "England";
+    src: url(./fonts/FFF\ World\ Cup\ 2018\ England.ttf);
+}
+
+body {
+    background-color: rgb(252, 252, 252);
+}
+
+h1 {
+    font-family: England;
+    color: rgb(2, 7, 44);
+}
+
+p {
+    color: rgb(246, 250, 249);
+    size: 20px;
+    font-family: England;
+}
+
+#displayinline {
+    display: inline;
+    color: rgb(98, 0, 255);
+}
+
+#inlineblock {
+    display: inline-block;
+    color: rgb(98, 0, 255);
+}
+
+#block {
+    display: block;
+    color: rgb(98, 0, 255);
+}
+
+#flex {
+    display: flex;
+    color: rgb(98, 0, 255);
+}
+
+#inlineflex {
+    display: inline-flex;
+    color: rgb(98, 0, 255);
+}
+
+#grid {
+    display: grid;
+    color: rgb(98, 0, 255);
+}
